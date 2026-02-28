@@ -13,21 +13,22 @@ def num_of_times (case_one:str,case_tow:str):
         
         if i%3 == 0 and i%5 == 0:
 
-            print(f"bouth cases: {case_one + case_tow}, with number: {i}")
+            print(case_one + case_tow)
         
         elif i%3 == 0:
         
-            print(f"case one: {case_one}, with number: {i}")
+            print(case_one)
         
         elif i%5 == 0:
         
-            print(f"case tow: {case_tow}, with number: {i}")
+            print(case_tow)
         
-        if i%3 == 0 or i%5 == 0:
+        else:
+            print(i)
             num_of_times += 1
 
 
     return num_of_times
 
 
-print(f"printed: {num_of_times("this","that")} times")
+print(f"printed: {num_of_times("Fizz", "Buzz")} times")
