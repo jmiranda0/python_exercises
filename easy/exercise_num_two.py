@@ -30,4 +30,4 @@ def num_of_times (case_one:str,case_tow:str):
     return num_of_times
 
 
-print(f"printed: {num_of_times("eso","aquello")} times")
+print(f"printed: {num_of_times("this","that")} times")
